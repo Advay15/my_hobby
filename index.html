@@ -1,60 +1,63 @@
 <html>
 
 <head>
-    <title> My Hobby</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#bio">About</a></li>
-        <li class="links"><a href="#models">My Favourite Models</a></li>
-        <li class="links"><a href="#work">My Work</a></li>
-        <li class="links"><a href="#inspiration">Inspiration</a></li>
-        <li class="links"><a href="#contact">Contact</a></li>
-    </ul>
-    <section id="welcome">
-        <div class="parallax-inner">
-            <img src="https://i.ytimg.com/vi/kDqrgZib1xY/maxresdefault.jpg" class="profile">
-            <h1> Advay Goel <br> <span id="name"> My favorite hobby </span></h1>
-            <h2> Origami Planes </h2>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                Advay Goel
+            </a>
         </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#schoolname">The Daly College School</a></li>
+                <li><a href="#campus">Campus life</a></li>
+                <li><a href="#achievments">Achievements</a></li>
+                <li><a href="#new">What’s New</a></li>
+                <li><a href="#alumini">Alumni</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="schoolname">
+        <img src="https://www.dalycollege.org/images/slider-1.jpg" class="profile">
+        <br>
+        <br>
+        <iframe width="920" height="506" src="https://www.youtube.com/embed/49zSDUvEVuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-    <section id="bio">
-        <h1> About </h1>
+    <br>
+    <br>
+    <section id="contact">
+        <h1> Contact</h1>
         <div class="line"></div>
-        <p>Origami requires lot of patience. Origami is to make something with paper without taping, gluing, tearing or cutting.
-            It first begin in china then it came to japan.
-        </p>
-    </section>
-    <section id="work">
-        <h1> My Work</h1>
-        <div class="line"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d567.2582468216616!2d75.89355237610297!3d22.70086747325023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcd67b155cf5%3A0xd065b8a61f950a4f!2sThe%20Daly%20College!5e0!3m2!1sen!2sin!4v1617460094592!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <br>
         <br>
-        <iframe width="900" height="506" src="https://www.youtube.com/embed/8Vrm65w6Blc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="900" height="506" src="https://www.youtube.com/embed/PJ_IuluTSlk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section id="models">
-        <h1> My Favourite models</h1>
-        <div class="line"></div>
-        <a class="article" href="https://i.ytimg.com/vi/kDqrgZib1xY/maxresdefault.jpg" target="_blank">Sukoi Su 57 Fighter Jet (origami)
-        </a>
-        <br>
-        <br>
-        <a class="article" href="https://i.ytimg.com/vi/61lA4gU2dU0/maxresdefault.jpg" target="_blank">F 35 Lightening 2 Fighter Jet (origami)
-        </a>
-        <br>
-        <br>
-    </section>
-    <section id="inspiration">
-        <h1>Inspiration</h1>
-        <div class="line"></div>
-        <p>Click on the picture to view my inspiration.</p>
-        <a target="_blank" href=https://www.youtube.com/user/jayson5674/videos><img src="jayson%20merrill.jpg"></a>
+        <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a href="mailto:bursar@dalycollege.org?Subject=hello">
+                <i class="fa fa-envelope"></i> &nbsp; &nbsp;<h3>bursar@dalycollege.org</h3>
+            </a>
+            <br>
+            <br>
+            <a href="#">
+            </a>
+        </div>
+        <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <form> <span>Name : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required> <br><br> <span>Comment : </span><input type="text" name="comment" required> <br><br> <input type="submit" value="submit" class="btn btn-success"> </form>
+        </div>
+
     </section>
 </body>
 
